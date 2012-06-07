@@ -1,0 +1,49 @@
+/* 
+    Document   : estilo
+    Created on : 11/08/2010, 12:58:48 PM
+    Author     : JV Software
+    Description:
+        Estilo general para Tutorial 1.
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #F1F8FA;
+    background-repeat: repeat-x;
+    font-size: 14px;
+    font-family: 'Helvetica Neue','Helvetica','Arial', 'sans-serif';
+}
+#busqueda{
+    margin: 50px 0px 20px 50px;
+}
+#resultados{
+    -moz-border-radius: 15px;
+    -moz-box-shadow: 5px 5px 6px #888;
+    border: 1px solid #EDF6F8;
+    width: 340px;
+    background: -moz-linear-gradient(0% 75% 90deg,#FFFFFF, #A7D4DF);
+    margin: 0px 0px 20px 50px;
+    padding: 10px 10px 30px 10px;
+}
+#resultados h2{
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+}
+#resultados img{
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+#clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
